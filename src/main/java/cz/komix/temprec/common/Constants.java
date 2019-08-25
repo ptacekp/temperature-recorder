@@ -35,7 +35,7 @@ public class Constants {
      * Period of update Average samples view in ms.
      * It is one minute in default.
      */
-    public static final long AVERAGES_VIEW_UPDATE_PERIOD = 10 * 1000;
+    public static final long AVERAGES_VIEW_UPDATE_PERIOD = 60 * 1000;
 
     /**
      * Version of the Application.
