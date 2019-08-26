@@ -44,14 +44,14 @@ You can start the application without any parameter or use one of this:
 Every other startup parameter are invalid. In that case the application prints help message and quits.
  
 ## Commands
-The application command line interface read every 
+The application command line interface read every user input. Possible commands are:
  * `add` - add new measurement sample. You have to enter sample in right format. Sample format is two capital letters, space and decimal number.
  * `help` - prints help message.
  * `version` - prints version description of the application.
  * `load` - load measurement samples from text file. You have to specify full file path.
  * `quit` - end the application.
 
-You can also enter single measurement sample directly in right format. If you insert sample in wrong format or enter any other command, the application prints Invalid command message to the error output. This does not terminate the application. 
+You can also enter single measurement sample directly in right format. If you insert sample in wrong format or enter any other command, the application will print Invalid command message to the error output. This does not terminate the application. 
 
 # License
 Temperature Recorder application is distributed under MIT license.
