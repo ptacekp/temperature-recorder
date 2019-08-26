@@ -25,6 +25,8 @@
 package cz.komix.temprec;
 
 import cz.komix.temprec.cli.ArgumentHandler;
+import cz.komix.temprec.cli.Command;
+import cz.komix.temprec.cli.LoadCommand;
 import cz.komix.temprec.controller.ApplicationController;
 import cz.komix.temprec.controller.AveragesController;
 import cz.komix.temprec.domain.Samples;
